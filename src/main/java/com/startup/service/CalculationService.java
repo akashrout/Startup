@@ -24,13 +24,6 @@ public interface CalculationService {
   */
  public void multiplication(int firstNumber,int secondNumber);
  
- /**
-  * Modular.
-  *
-  * @param num the num
-  * @param rem the rem
-  */
- public void Modular(int num,int rem);
  
  /**
   * Odd even number.
@@ -64,7 +57,23 @@ public interface CalculationService {
 	 */
 	public void squareofPerimeter(int a);
  
+	/**
+	 * Peri triangle.
+	 *
+	 * @param x the x
+	 * @param y the y
+	 * @param z the z
+	 */
 	public void periTriangle(float x, float y, float z);
+	
+	
+	
+	/**
+	 * Moduler.
+	 *
+	 * @param x the x
+	 */
+	public void moduler(int x);
  
 }
 

@@ -42,10 +42,9 @@ public class CalculationServiceImpl implements CalculationService {
 	 * 
 	 * @see com.startup.service.CalculationService#Modular(int, int)
 	 */
-	public void Modular(int num, int rem) {
-		int modulo = 2;
 
-	}
+
+	
 
 	/**
 	 * implementation class of cube of a number get number from main method.
@@ -113,6 +112,17 @@ public class CalculationServiceImpl implements CalculationService {
 		// TODO Auto-generated method stub
 		double peri= x+y+z;
 		System.out.println("perimeter of Triangle  is:" + peri);
+	}
+
+	public void moduler(int x) {
+		int modular;
+		modular=x%2;
+		if(modular==0) {
+			System.out.println("This is Even Number");
+		}
+		else {
+			System.out.println("This number is Odd Number");
+		}
 	}
 
 }

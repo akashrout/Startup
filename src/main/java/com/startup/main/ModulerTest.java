@@ -12,11 +12,12 @@ import com.startup.serviceimpl.CalculationServiceImpl;
 public class ModulerTest {
 	public static void main(String[] args) {
 		CalculationServiceImpl obj=new CalculationServiceImpl();
-		System.out.println("Emter the number :");
+		System.out.println("Enter the number :");
 		Scanner sc=new Scanner (System.in);
-		int num=sc.nextInt();
-		int rem=sc.nextInt();
-	obj.Modular(num, rem);
+		int x=sc.nextInt();
+        
+		obj.moduler(x);
+        
 	}
 
 }
