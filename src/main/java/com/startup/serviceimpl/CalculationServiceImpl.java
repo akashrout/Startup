@@ -98,6 +98,9 @@ public class CalculationServiceImpl implements CalculationService {
 
 	}
 
+	/* (non-Javadoc)
+	 * @see com.startup.service.CalculationService#periTriangle(float, float, float)
+	 */
 	public void periTriangle(float x, float y, float z) {
 		/**
 		 * method for perimiter of triangle.
@@ -114,6 +117,9 @@ public class CalculationServiceImpl implements CalculationService {
 		System.out.println("perimeter of Triangle  is:" + peri);
 	}
 
+	/* (non-Javadoc)
+	 * @see com.startup.service.CalculationService#moduler(int)
+	 */
 	public void moduler(int x) {
 		int modular;
 		modular=x%2;
@@ -125,6 +131,9 @@ public class CalculationServiceImpl implements CalculationService {
 		}
 	}
 
+	/* (non-Javadoc)
+	 * @see com.startup.service.CalculationService#fibonacci(int)
+	 */
 	public void fibonacci(int x) {
 		int  a=0,b=1;
 		System.out.println(a);
