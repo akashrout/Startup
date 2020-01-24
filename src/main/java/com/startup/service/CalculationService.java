@@ -74,6 +74,15 @@ public interface CalculationService {
 	 * @param x the x
 	 */
 	public void moduler(int x);
- 
+	  
+	
+	
+	/**
+	 * Fibonacci.
+	 *
+	 * @param x the x
+	 */
+	public void fibonacci(int x);
+
 }
 
