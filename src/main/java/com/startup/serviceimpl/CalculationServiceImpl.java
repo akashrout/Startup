@@ -148,6 +148,21 @@ public class CalculationServiceImpl implements CalculationService {
 		
 	}
 
+	/* (non-Javadoc)
+	 * @see com.startup.service.CalculationService#starPattern(int)
+	 */
+	public void starPattern(int num) {
+		for(int i=1;i<=num;i++)
+		{
+			for(int j=1;j<=i;j++)
+			{
+				System.out.print("*");
+			}
+			System.out.println( );
+		}
+		
+	}
+
 
 
 

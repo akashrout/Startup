@@ -83,6 +83,16 @@ public interface CalculationService {
 	 * @param x the x
 	 */
 	public void fibonacci(int x);
+	
+	
+	
+	/**
+	 * Star pattern.
+	 *
+	 * @param num the num
+	 */
+	public void starPattern(int num);
+	
 
 }
 
